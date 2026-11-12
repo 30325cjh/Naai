@@ -1,0 +1,98 @@
+{
+  "note": "Draft parameter targets for authoring in Live2D Cubism Editor. These are NOT runtime-ready .exp3.json files.",
+  "model": "Aris_Remake_UpperBody",
+  "expressions": {
+    "Normal": {
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamBrowLY": 0,
+      "ParamBrowRY": 0,
+      "ParamMouthOpenY": 0,
+      "ParamMouthForm": 0.15
+    },
+    "Smile": {
+      "ParamEyeLOpen": 0.92,
+      "ParamEyeROpen": 0.92,
+      "ParamBrowLY": 0.1,
+      "ParamBrowRY": 0.1,
+      "ParamMouthOpenY": 0,
+      "ParamMouthForm": 0.8
+    },
+    "Happy": {
+      "ParamEyeLOpen": 0,
+      "ParamEyeROpen": 0,
+      "ParamBrowLY": 0.25,
+      "ParamBrowRY": 0.25,
+      "ParamMouthOpenY": 0.7,
+      "ParamMouthForm": 0.9,
+      "Blush": 0.65
+    },
+    "Surprised": {
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamBrowLY": 0.8,
+      "ParamBrowRY": 0.8,
+      "ParamMouthOpenY": 0.8,
+      "ParamMouthForm": 0
+    },
+    "Angry": {
+      "ParamEyeLOpen": 0.72,
+      "ParamEyeROpen": 0.72,
+      "ParamBrowLY": -0.85,
+      "ParamBrowRY": -0.85,
+      "ParamMouthOpenY": 0,
+      "ParamMouthForm": -0.65
+    },
+    "Sad": {
+      "ParamEyeLOpen": 0.8,
+      "ParamEyeROpen": 0.8,
+      "ParamBrowLY": 0.55,
+      "ParamBrowRY": 0.55,
+      "ParamMouthOpenY": 0,
+      "ParamMouthForm": -0.75
+    },
+    "Shy": {
+      "ParamEyeLOpen": 0.85,
+      "ParamEyeROpen": 0.85,
+      "ParamEyeBallX": 0.35,
+      "ParamEyeBallY": -0.1,
+      "ParamBrowLY": 0.2,
+      "ParamBrowRY": 0.2,
+      "ParamMouthOpenY": 0,
+      "ParamMouthForm": 0.35,
+      "Blush": 0.85
+    },
+    "Sleepy": {
+      "ParamEyeLOpen": 0.35,
+      "ParamEyeROpen": 0.35,
+      "ParamBrowLY": -0.15,
+      "ParamBrowRY": -0.15,
+      "ParamMouthOpenY": 0,
+      "ParamMouthForm": 0
+    },
+    "Wink": {
+      "ParamEyeLOpen": 0,
+      "ParamEyeROpen": 1,
+      "ParamBrowLY": 0.2,
+      "ParamBrowRY": 0.1,
+      "ParamMouthOpenY": 0,
+      "ParamMouthForm": 0.7
+    },
+    "Confused": {
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 0.9,
+      "ParamBrowLY": 0.6,
+      "ParamBrowRY": -0.25,
+      "ParamEyeBallX": -0.25,
+      "ParamMouthOpenY": 0,
+      "ParamMouthForm": -0.15
+    }
+  },
+  "motions": {
+    "Idle": "gentle breathing, occasional blink, low-amplitude head sway",
+    "Talk": "mouth-open driven by app audio or viseme input, subtle head motion",
+    "Greeting": "short nod/dip and return",
+    "Listen": "small head tilt and gaze shift",
+    "Surprise": "brief eye widening and restrained head reaction"
+  }
+}
